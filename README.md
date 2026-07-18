@@ -2,8 +2,6 @@
 
 Research Consultancy (RC) skills for AI agents, focused on medical research workflows.
 
-This repository is modelled after the structure used in [`mattpocock/skills`](https://github.com/mattpocock/skills), with each skill distributed as a downloadable `.skill` file.
-
 ## Install
 
 ```bash
