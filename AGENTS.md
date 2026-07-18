@@ -10,7 +10,7 @@ Skill categories under `skills/`:
 
 Each distributed skill should be a downloadable `.skill` file placed in one of the five categories above.
 
-Invocation model (Pocock-style):
+Invocation model:
 
 - Each category `README.md` must keep separate sections for **User-invoked** and **Model-invoked** skills.
 - User-invoked skills are intended to be explicitly triggered by the user.
