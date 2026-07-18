@@ -1,0 +1,13 @@
+{
+  "name": "rc-skills",
+  "version": "0.1.0",
+  "description": "Research Consultancy medical research agent skills distributed as .skill files.",
+  "author": {
+    "name": "Ali Salman",
+    "url": "https://github.com/AliSalman-et-al"
+  },
+  "repository": "https://github.com/AliSalman-et-al/rc-skills",
+  "license": "MIT",
+  "keywords": ["skills", "medical-research", "research-consultancy"],
+  "skills": []
+}
