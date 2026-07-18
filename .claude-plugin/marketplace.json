@@ -1,0 +1,17 @@
+{
+  "name": "AliSalman-et-al",
+  "owner": {
+    "name": "Ali Salman",
+    "url": "https://github.com/AliSalman-et-al"
+  },
+  "description": "Personal agent skills published as a Claude plugin.",
+  "plugins": [
+    {
+      "name": "rc-skills",
+      "source": "./",
+      "description": "AliSalman-et-al's reusable agent skills.",
+      "category": "engineering",
+      "keywords": ["skills", "engineering", "productivity"]
+    }
+  ]
+}
