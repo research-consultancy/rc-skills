@@ -1,3 +1,5 @@
+Skills in this repository are intended for Research Consultancy (RC) medical research workflows.
+
 Skills are organized into bucket folders under `skills/`:
 
 - `engineering/` — promoted engineering skills

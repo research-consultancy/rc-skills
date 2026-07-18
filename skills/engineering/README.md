@@ -1,10 +1,10 @@
 # Engineering skills
 
-Promoted skills for software engineering workflows.
+Promoted engineering bucket.
 
 ## User-invoked
 
-- **[setup-rc-skills](./setup-rc-skills/SKILL.md)** — configure issue tracker, triage labels, and docs location.
+- _None yet._
 
 ## Model-invoked
 

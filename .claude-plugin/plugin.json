@@ -1,13 +1,13 @@
 {
   "name": "rc-skills",
   "version": "0.1.0",
-  "description": "AliSalman-et-al's reusable agent skills.",
+  "description": "Research Consultancy medical research agent skills.",
   "author": {
     "name": "Ali Salman",
     "url": "https://github.com/AliSalman-et-al"
   },
   "repository": "https://github.com/AliSalman-et-al/rc-skills",
   "license": "MIT",
-  "keywords": ["skills", "engineering", "productivity"],
-  "skills": ["./skills/engineering/setup-rc-skills"]
+  "keywords": ["skills", "medical-research", "research-consultancy", "productivity"],
+  "skills": ["./skills/productivity/setup-rc-skills"]
 }

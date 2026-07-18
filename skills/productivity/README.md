@@ -1,10 +1,10 @@
 # Productivity skills
 
-Promoted skills for non-code workflows.
+Promoted skills for Research Consultancy (RC) medical research workflows.
 
 ## User-invoked
 
-- _None yet._
+- **[setup-rc-skills](./setup-rc-skills/SKILL.md)** — configure issue tracker, triage labels, and document location for RC workflows.
 
 ## Model-invoked
 
