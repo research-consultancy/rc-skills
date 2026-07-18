@@ -1,3 +1,11 @@
 # Academic Writing skills
 
-Place downloadable `.skill` files for academic writing tasks in this folder.
+Downloadable `.skill` files for academic writing tasks.
+
+## User-invoked
+
+- _None yet._
+
+## Model-invoked
+
+- _None yet._

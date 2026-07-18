@@ -1,3 +1,11 @@
 # Other skills
 
-Place downloadable `.skill` files for general/non-research tasks in this folder.
+Downloadable `.skill` files for general/non-research tasks.
+
+## User-invoked
+
+- _None yet._
+
+## Model-invoked
+
+- _None yet._
