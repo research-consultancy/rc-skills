@@ -1,13 +1,30 @@
 {
   "name": "rc-skills",
   "version": "0.1.0",
-  "description": "Research Consultancy medical research agent skills distributed as .skill files.",
+  "description": "Research Consultancy skills for medical research, meta-analysis, PubMed evidence discovery, and manuscript review.",
   "author": {
     "name": "Ali Salman",
     "url": "https://github.com/AliSalman-et-al"
   },
   "repository": "https://github.com/AliSalman-et-al/rc-skills",
   "license": "MIT",
-  "keywords": ["skills", "medical-research", "research-consultancy"],
-  "skills": []
+  "keywords": [
+    "skills",
+    "medical-research",
+    "research-consultancy",
+    "meta-analysis",
+    "pubmed",
+    "manuscript-review"
+  ],
+  "skills": [
+    "./skills/evidence-insight/build-pubmed-search",
+    "./skills/evidence-insight/pubmed",
+    "./skills/evidence-insight/research",
+    "./skills/protocol-design/grill-meta-analysis-topic",
+    "./skills/academic-writing/proofread-manuscript",
+    "./skills/other/grill-me",
+    "./skills/other/grilling",
+    "./skills/other/domain-modeling",
+    "./skills/other/teach"
+  ]
 }

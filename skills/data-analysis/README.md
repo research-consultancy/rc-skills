@@ -1,6 +1,6 @@
 # Data Analysis skills
 
-Downloadable `.skill` files for data analysis tasks.
+Skill directories for data analysis tasks.
 
 ## User-invoked
 
