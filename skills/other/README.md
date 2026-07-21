@@ -1,11 +1,13 @@
 # Other skills
 
-Downloadable `.skill` files for general/non-research tasks.
+Skill directories for cross-cutting RC workflows.
 
 ## User-invoked
 
-- _None yet._
+- [`grill-me`](./grill-me/SKILL.md) — Start a relentless interview about a plan or design.
+- [`teach`](./teach/SKILL.md) — Teach medical research methods through a stateful, evidence-grounded workspace.
 
 ## Model-invoked
 
-- _None yet._
+- [`grilling`](./grilling/SKILL.md) — Reusable one-question-at-a-time grilling discipline.
+- [`domain-modeling`](./domain-modeling/SKILL.md) — Align medical research terminology, constructs, estimands, and consequential decisions.

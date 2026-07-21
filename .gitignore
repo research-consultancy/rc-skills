@@ -1,0 +1,26 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local dependencies and validation artifacts
+node_modules/
+.validator-deps/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~

@@ -1,6 +1,6 @@
 # Academic Writing skills
 
-Downloadable `.skill` files for academic writing tasks.
+Skill directories for academic writing tasks.
 
 ## User-invoked
 
@@ -8,4 +8,4 @@ Downloadable `.skill` files for academic writing tasks.
 
 ## Model-invoked
 
-- _None yet._
+- [`proofread-manuscript`](./proofread-manuscript/SKILL.md) — Audit a medical manuscript and submission package before journal submission.

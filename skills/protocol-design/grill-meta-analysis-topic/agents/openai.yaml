@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill Meta-Analysis Topic"
+  short_description: "Validate meta-analysis topic viability"
+  default_prompt: "Use $grill-meta-analysis-topic to test my proposed meta-analysis against published and registered research."
+policy:
+  allow_implicit_invocation: false

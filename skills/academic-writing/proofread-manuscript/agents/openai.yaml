@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proofread Manuscript"
+  short_description: "Audit a manuscript before submission"
+  default_prompt: "Use $proofread-manuscript to audit this manuscript and report submission-ready corrections."

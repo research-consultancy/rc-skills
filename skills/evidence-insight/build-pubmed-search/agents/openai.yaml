@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build PubMed Search"
+  short_description: "Create a validated meta-analysis search"
+  default_prompt: "Use $build-pubmed-search to interview me and produce a tested, copy-ready PubMed search string for my meta-analysis."
+policy:
+  allow_implicit_invocation: false

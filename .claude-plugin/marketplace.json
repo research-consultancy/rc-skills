@@ -9,7 +9,7 @@
     {
       "name": "rc-skills",
       "source": "./",
-      "description": "Research Consultancy medical research skills distributed as downloadable .skill files.",
+      "description": "Research Consultancy medical research skills organized as expanded skill directories.",
       "category": "productivity",
       "keywords": ["skills", "medical-research", "research-consultancy"]
     }
