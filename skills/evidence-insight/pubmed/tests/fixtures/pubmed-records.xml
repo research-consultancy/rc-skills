@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE">
+      <PMID Version="1">12345678</PMID>
+      <Article>
+        <Journal><Title>Journal of Reliable Evidence</Title><JournalIssue><PubDate><Year>2025</Year><Month>Dec</Month></PubDate></JournalIssue></Journal>
+        <ArticleTitle>Testing <i>structured</i> PubMed records</ArticleTitle>
+        <Abstract>
+          <AbstractText Label="BACKGROUND">A structured background.</AbstractText>
+          <AbstractText Label="RESULTS">A <b>mixed-content</b> result.</AbstractText>
+        </Abstract>
+        <AuthorList>
+          <Author><ForeName>Ada</ForeName><LastName>Lovelace</LastName></Author>
+          <Author><CollectiveName>Evidence Group</CollectiveName></Author>
+        </AuthorList>
+        <PublicationTypeList><PublicationType>Randomized Controlled Trial</PublicationType></PublicationTypeList>
+      </Article>
+      <MedlineJournalInfo><MedlineTA>J Reliab Evid</MedlineTA></MedlineJournalInfo>
+      <MeshHeadingList><MeshHeading><DescriptorName>Evidence-Based Medicine</DescriptorName></MeshHeading></MeshHeadingList>
+      <CommentsCorrectionsList><CommentsCorrections RefType="RetractionIn"><RefSource>Correction notice</RefSource><PMID>87654321</PMID></CommentsCorrections></CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData><ArticleIdList><ArticleId IdType="pubmed">12345678</ArticleId><ArticleId IdType="doi">10.1000/test</ArticleId><ArticleId IdType="pmc">PMC123</ArticleId></ArticleIdList><ReferenceList><Reference><ArticleIdList><ArticleId IdType="pubmed">11111111</ArticleId><ArticleId IdType="doi">10.1000/cited</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData>
+  </PubmedArticle>
+  <DeleteCitation><PMID>99999999</PMID></DeleteCitation>
+</PubmedArticleSet>

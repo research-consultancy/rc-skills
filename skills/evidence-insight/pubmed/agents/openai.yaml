@@ -1,4 +1,4 @@
 interface:
   display_name: "PubMed"
   short_description: "Search and verify biomedical literature"
-  default_prompt: "Use $pubmed to find and verify PubMed evidence for this research question."
+  default_prompt: "Use $pubmed to route, retrieve, and verify PubMed evidence with the guarantee level this research question requires."

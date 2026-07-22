@@ -5,7 +5,7 @@ description: Search and verify biomedical literature in PubMed. Use when a medic
 
 # PubMed
 
-Use PubMed as a reproducible evidence lookup, not a title generator.
+Use PubMed as a reproducible evidence lookup, not a title generator. Keep scientific judgment in the agent and route retrieval by required capability.
 
 ## Define the search
 
@@ -23,13 +23,19 @@ The search definition is complete when another researcher could rerun the exact 
 
 ## Retrieve and verify
 
-Use an available PubMed connector first. Otherwise use NCBI E-utilities according to [references/eutils.md](references/eutils.md).
+When another skill invokes PubMed, use the stable [caller contract](references/caller-contract.md). Keep backend selection, response accounting, and artifact handling inside this skill so callers remain portable across Claude Code and other agent hosts.
+
+If PubMed MCP tools are available, route the request according to [references/mcp.md](references/mcp.md). Use the bundled Python CLI according to [references/cli.md](references/cli.md) for evidence-grade retrieval and verification. Use raw NCBI E-utilities according to [references/eutils.md](references/eutils.md) only as the final fallback.
+
+Give either search path an already-formed query and inspect its translation before accepting the search. The CLI exposes a zero-network `capabilities` manifest plus `search` for evidence-grade retrieval, `fetch` for authoritative records, `verify` for deterministic bibliographic checks, `related` for PubMed neighbors, `cite-match` for structured citation resolution, and `id-convert` for PMID/PMCID/DOI conversion. The MCP adds bounded lookup, PMC full text, and copyright/licence status. Neither path chooses terms, screens studies, appraises evidence, or decides whether a citation supports a claim.
 
 Retrieve full PubMed records for candidate PMIDs. Verify title, authors, journal, publication year, abstract, publication type, MeSH terms, DOI, correction/retraction links, and PMID from the record itself. Deduplicate by PMID first, then DOI and normalized title.
 
+For large searches, fetches, verifications, or related-record expansions, request durable artifacts with summary-only stdout. Read targeted records from the returned artifact paths instead of placing the complete payload in the agent context.
+
 For topic refinement, first locate recent systematic reviews and protocols, then use their terminology and included studies to find landmark and newer primary reports. For claim verification, read enough of the abstract or accessible full text to determine whether the cited paper actually supports the claim.
 
-Retrieval is complete only when every reported paper has a verified PMID and the result set's coverage limits are stated.
+Retrieval is complete only when every requested PMID is accounted for, every reported paper has a verified PMID, and the result set's coverage limits are stated. A result over 10,000 has no complete ESearch PMID manifest until explicit non-overlapping partitions are supplied and validated.
 
 ## Report reproducibly
 

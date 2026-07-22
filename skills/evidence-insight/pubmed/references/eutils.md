@@ -1,6 +1,6 @@
 # NCBI E-utilities for PubMed
 
-Read this reference when no purpose-built PubMed connector is available.
+Read this reference only when neither the bundled CLI nor a purpose-built PubMed connector can run.
 
 ## Request sequence
 
@@ -13,11 +13,11 @@ Use the official base URL:
 3. Call `efetch.fcgi` with `db=pubmed`, `query_key`, `WebEnv`, and `retmode=xml` to retrieve complete PubMed records in batches.
 4. Use HTTP POST for very long queries and for UID lists larger than roughly 200 identifiers.
 
-For PubMed retrieval above 10,000 records, use NCBI's EDirect workflow or split the query into non-overlapping date ranges and document the method.
+PubMed ESearch cannot expose PMIDs beyond the first 10,000 by incrementing `retstart`. Above that ceiling, use EDirect or explicit non-overlapping partitions, validate each partition below 10,000, reconcile counts, detect overlap, and document every query. Date partitions can miss incompletely dated records; never claim completeness without accounting for that limitation.
 
 ## Identification and rate limits
 
-Include a descriptive `tool` and contact `email` with automated requests. Include `api_key` when available and keep it out of logs, prompts, and committed files.
+Include a descriptive `tool`. Include a contact `email` and `api_key` when configured, keeping the key out of logs, prompts, and committed files. Requests can run without either optional value.
 
 - Without an API key: at most 3 requests per second per IP.
 - With a standard API key: at most 10 requests per second per IP.
