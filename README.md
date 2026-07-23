@@ -13,15 +13,15 @@ Use the native plugin when you want the complete collection as a managed bundle.
 Inside Claude Code:
 
 ```text
-/plugin marketplace add AliSalman-et-al/rc-skills
-/plugin install rc-skills@AliSalman-et-al
+/plugin marketplace add research-consultancy/rc-skills
+/plugin install rc-skills@research-consultancy
 ```
 
 Or from your shell:
 
 ```bash
-claude plugin marketplace add AliSalman-et-al/rc-skills --scope user
-claude plugin install rc-skills@AliSalman-et-al --scope user
+claude plugin marketplace add research-consultancy/rc-skills --scope user
+claude plugin install rc-skills@research-consultancy --scope user
 ```
 
 The default `user` scope makes the skills available across projects. Use `--scope project` to share the configuration with collaborators in one project, or `--scope local` for one local checkout.
@@ -38,7 +38,7 @@ Check or update the installation from your shell:
 
 ```bash
 claude plugin list
-claude plugin update rc-skills@AliSalman-et-al --scope user
+claude plugin update rc-skills@research-consultancy --scope user
 ```
 
 Restart Claude Code after an update.
