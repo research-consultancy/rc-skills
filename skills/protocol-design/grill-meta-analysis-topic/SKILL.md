@@ -20,7 +20,6 @@ Resolve:
 - primary and secondary outcomes, measurement windows, and intended effect measures;
 - eligible study designs, dates, languages, and publication status;
 - the clinical or methodological contribution the user expects;
-- practical constraints: deadline, database access, screening capacity, software, and expertise.
 
 Maintain a live one-sentence question, working title, and PICO/PECO/PICOS. When an answer changes one element, revisit every dependent choice.
 
