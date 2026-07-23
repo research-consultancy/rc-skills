@@ -1,0 +1,100 @@
+1. J Test. 2024 Jan;1(1):1-8. doi: 10.1000/eligible.
+
+Empagliflozin versus placebo in adults with heart failure with reduced ejection fraction.
+
+Smith J(1), Khan A(2).
+
+Author information:
+(1)Example University.
+(2)Example Hospital.
+
+BACKGROUND: The benefit of empagliflozin in adults with heart failure with reduced
+ejection fraction remains under study.
+METHODS: Adults were randomized to empagliflozin or placebo and followed for heart
+failure hospitalization.
+RESULTS: Empagliflozin reduced heart failure hospitalization.
+
+DOI: 10.1000/eligible
+PMID: 10000001
+
+
+2. J Test. 2023 Feb;2(2):9-12. doi: 10.1000/sparse.
+
+SGLT2 inhibition in chronic heart failure: a pilot trial.
+
+Jones A(1).
+
+Author information:
+(1)Example University.
+
+PMID: 10000002
+
+
+3. Vet Test. 2022 Mar;3(3):13-20. doi: 10.1000/animal.
+
+Empagliflozin improves ventricular function in a murine heart failure model.
+
+Lee B(1), Patel C(1).
+
+Author information:
+(1)Example Veterinary Institute.
+
+METHODS: Mice with induced heart failure were allocated to empagliflozin or vehicle.
+RESULTS: Ventricular function improved after treatment.
+
+DOI: 10.1000/animal
+PMID: 10000003
+
+
+4. Review Test. 2021 Apr;4(4):21-30. doi: 10.1000/review.
+
+SGLT2 inhibitors for heart failure: a systematic review and meta-analysis.
+
+Garcia D(1).
+
+Author information:
+(1)Example Evidence Centre.
+
+OBJECTIVE: To synthesize randomized trials of SGLT2 inhibitors in heart failure.
+METHODS: We searched bibliographic databases and pooled trial-level effect estimates.
+CONCLUSIONS: SGLT2 inhibitors reduced hospitalization for heart failure.
+
+DOI: 10.1000/review
+PMID: 10000004
+
+
+5. J Test. 2020 May;5(5):31-38. doi: 10.1000/adherence.
+
+Adherence to guideline-directed therapy in adults with heart failure with reduced ejection fraction.
+
+Nguyen E(1).
+
+Author information:
+(1)Example Heart Institute.
+
+BACKGROUND: Contemporary therapy for HFrEF may include SGLT2 inhibitors.
+METHODS: We measured prescription rates for beta-blockers and mineralocorticoid
+receptor antagonists in an outpatient registry. SGLT2 treatment and outcomes were not
+assessed.
+RESULTS: Adherence to beta-blockers remained suboptimal.
+
+DOI: 10.1000/adherence
+PMID: 10000005
+
+
+6. J Test. 2019 Jun;6(6):39-46. doi: 10.1000/singlearm.
+
+Short-term ventricular remodeling after dapagliflozin initiation in HFrEF.
+
+Wilson F(1).
+
+Author information:
+(1)Example Cardiology Centre.
+
+METHODS: In this prospective single-arm study, adults with HFrEF received
+dapagliflozin for twelve weeks. Echocardiography was performed before and after
+treatment. No untreated or active comparator group was enrolled.
+RESULTS: Left ventricular volume decreased after treatment.
+
+DOI: 10.1000/singlearm
+PMID: 10000006

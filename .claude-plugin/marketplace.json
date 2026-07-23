@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "rc-skills",
-      "version": "0.2.3",
+      "version": "0.2.6",
       "source": "./",
       "description": "Research Consultancy medical research skills organized as expanded skill directories.",
       "category": "productivity",

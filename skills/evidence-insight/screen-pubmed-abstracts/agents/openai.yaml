@@ -1,0 +1,6 @@
+interface:
+  display_name: "Screen PubMed Abstracts"
+  short_description: "Create a balanced PubMed screening shortlist"
+  default_prompt: "Use $screen-pubmed-abstracts to define eligibility and produce a balanced CSV shortlist from my PubMed text export."
+policy:
+  allow_implicit_invocation: false

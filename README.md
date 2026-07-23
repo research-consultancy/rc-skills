@@ -4,7 +4,7 @@ Practical agent skills for planning, searching, reviewing, and communicating med
 
 Good research depends on decisions that an agent should not make silently: what question is actually being asked, whether a synthesis is worth doing, how evidence will be found, and whether a manuscript supports its claims. These skills turn those decisions into explicit, repeatable workflows while keeping the researcher in control.
 
-The initial collection focuses on meta-analysis topic development, PubMed searching, evidence discovery, shared research terminology, teaching, and manuscript review. Skills are small, composable, and work with agents that support the Agent Skills format.
+The initial collection focuses on meta-analysis topic development, PubMed searching and abstract screening, evidence discovery, shared research terminology, teaching, and manuscript review. Skills are small, composable, and work with agents that support the Agent Skills format.
 
 ## Install as a Claude Code plugin
 
@@ -31,6 +31,7 @@ Plugin skills use the plugin namespace. For example:
 ```text
 /rc-skills:build-pubmed-search
 /rc-skills:grill-meta-analysis-topic
+/rc-skills:screen-pubmed-abstracts
 /rc-skills:teach
 ```
 
@@ -56,6 +57,19 @@ Use [`/grill-meta-analysis-topic`](./skills/protocol-design/grill-meta-analysis-
 A few keywords are not a reproducible search strategy. PubMed searches need explicit concept blocks, controlled vocabulary, free-text synonyms, validation against known studies, and checks for indexing lag and unintended query translation.
 
 Use [`/build-pubmed-search`](./skills/evidence-insight/build-pubmed-search/SKILL.md) for a guided search-design session. It grills the topic, constructs the query, tests it against live PubMed results, and returns a copy-ready search string. The reusable [`pubmed`](./skills/evidence-insight/pubmed/SKILL.md) skill handles literature retrieval and verification.
+
+### The abstract queue is too large to screen efficiently
+
+A broad search protects recall but can leave hundreds of records for manual review. Screening them effectively requires operational eligibility criteria, consistent treatment of missing information, and enough specificity to remove clearly irrelevant reports without silently discarding plausible studies.
+
+Use [`/screen-pubmed-abstracts`](./skills/evidence-insight/screen-pubmed-abstracts/SKILL.md) with a numbered PubMed plain-text export. It grills the review scope, calibrates on a small pilot, and screens every record exactly once using explicit criterion-level judgments. The workflow produces:
+
+- a CSV of `probable_include` and defensible `maybe` candidates for human review;
+- a complete audit CSV containing every screened record and exclusion;
+- a screening charter recording the confirmed criteria and edge-case rules; and
+- a validated decision log with verbatim title-or-abstract evidence for every judgment.
+
+The screener balances sensitivity and specificity: topical relevance alone does not earn retention, while genuinely missing or ambiguous eligibility information remains visible to the human reviewer. Its shortlist is title-and-abstract triage, not a final study-inclusion decision.
 
 ### The project uses the same words for different things
 
@@ -85,6 +99,7 @@ Literature discovery, search design, and evidence verification.
 **User-invoked**
 
 - **[build-pubmed-search](./skills/evidence-insight/build-pubmed-search/SKILL.md)** — Grill a meta-analysis question and produce a tested, copy-ready PubMed search string.
+- **[screen-pubmed-abstracts](./skills/evidence-insight/screen-pubmed-abstracts/SKILL.md)** — Define eligibility and screen each PubMed record once into a balanced, auditable CSV shortlist.
 
 **Model-invoked**
 
