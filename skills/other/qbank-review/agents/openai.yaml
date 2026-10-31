@@ -1,0 +1,6 @@
+interface:
+  display_name: "Qbank Review"
+  short_description: "Review a completed qbank block in Obsidian"
+  default_prompt: "Use $qbank-review to turn a completed qbank block into personalized reviews and evidence-backed Obsidian memory."
+policy:
+  allow_implicit_invocation: false
