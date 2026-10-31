@@ -129,12 +129,12 @@ Reusable practices that support multiple stages of medical research.
 **User-invoked**
 
 - **[grill-me](./skills/other/grill-me/SKILL.md)** — Start a relentless one-question-at-a-time interview about a plan or decision.
-- **[teach](./skills/other/teach/SKILL.md)** — Learn medical research methods through a stateful, evidence-grounded teaching workspace.
+- **[teach](./skills/other/teach/SKILL.md)** — Learn medical research methods through a stateful, evidence-grounded teaching workspace.`n- **[grill-with-docs](./skills/other/grill-with-docs/SKILL.md)** — Grill a design and document decisions.
 
 **Model-invoked**
 
 - **[grilling](./skills/other/grilling/SKILL.md)** — Apply the reusable one-question-at-a-time grilling discipline.
-- **[domain-modeling](./skills/other/domain-modeling/SKILL.md)** — Align medical research terminology, constructs, estimands, and consequential decisions.
+- **[domain-modeling](./skills/other/domain-modeling/SKILL.md)** — Align medical research terminology, constructs, estimands, and consequential decisions.`n- **[writing-for-agents](./skills/other/writing-for-agents/SKILL.md)** — Write documents agents consume.
 
 ## Repository structure
 
@@ -147,3 +147,4 @@ Skills live under `skills/` in five categories:
 - `other/`
 
 Each skill is an expanded directory containing `SKILL.md` and any references or agent metadata it needs. Claude Code distribution metadata lives in `.claude-plugin/`.
+

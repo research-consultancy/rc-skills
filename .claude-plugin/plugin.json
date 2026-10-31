@@ -26,6 +26,8 @@
     "./skills/other/grill-me",
     "./skills/other/grilling",
     "./skills/other/domain-modeling",
-    "./skills/other/teach"
+    "./skills/other/teach",
+    "./skills/other/grill-with-docs",
+    "./skills/other/writing-for-agents"
   ]
 }
