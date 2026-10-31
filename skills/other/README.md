@@ -2,7 +2,7 @@
 
 Skill directories for cross-cutting RC workflows.
 
-## User-invoked
+## User-invoked`r`n`r`n- [`qbank-review`](./qbank-review/SKILL.md) — Review a completed question-bank block in Obsidian.
 
 - [`grill-me`](./grill-me/SKILL.md) — Start a relentless interview about a plan or design.
 - [`teach`](./teach/SKILL.md) — Teach medical research methods through a stateful, evidence-grounded workspace.`n- [`grill-with-docs`](./grill-with-docs/SKILL.md) — Grill a design and document decisions.

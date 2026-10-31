@@ -71,7 +71,7 @@ Use [`/screen-pubmed-abstracts`](./skills/evidence-insight/screen-pubmed-abstrac
 
 The screener balances sensitivity and specificity: topical relevance alone does not earn retention, while genuinely missing or ambiguous eligibility information remains visible to the human reviewer. Its shortlist is title-and-abstract triage, not a final study-inclusion decision.
 
-### The project uses the same words for different things
+### Reviewing completed question-bank blocks`r`n`r`nUse [`qbank-review`](./skills/other/qbank-review/SKILL.md) to review completed qbank blocks into personalized Obsidian notes, memory and flashcards.`r`n`r`n### The project uses the same words for different things
 
 Terms such as _baseline_, _cohort_, _outcome_, and _effect_ can silently change meaning across a protocol, registry, extraction form, analysis plan, and manuscript.
 

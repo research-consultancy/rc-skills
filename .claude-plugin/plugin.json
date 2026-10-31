@@ -28,6 +28,7 @@
     "./skills/other/domain-modeling",
     "./skills/other/teach",
     "./skills/other/grill-with-docs",
-    "./skills/other/writing-for-agents"
+    "./skills/other/writing-for-agents",
+    "./skills/other/qbank-review"
   ]
 }
