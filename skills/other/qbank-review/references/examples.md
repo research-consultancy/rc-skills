@@ -1,206 +1,260 @@
+All cases below are synthetic and written for this skill.
+
 # Worked examples
 
-These three fictionalized teaching cases demonstrate the evidence-first voice, density, section placement, and good-versus-bad reasoning. Clinical wording below is newly written and illustrative; it does not reproduce a qbank stem or explanation. Each output is a question note with YAML properties, Markdown sections and Obsidian links. Replace every illustrative detail with the supplied attempt record and source. The examples correspond to: an incorrect answer without cross-outs; an incorrect answer after crossing out the correct choice; and a correct, unmarked answer with a useful connection.
+These examples are wholly synthetic teaching cases. Captured evidence, the durable Obsidian note, flashcard line(s), and a short commentary are shown for each. Clinical claims are checked against the linked standard references. Names, values, options, and decision points are invented and do not reproduce real qbank cases.
 
-Use the note template as the canonical property list. The excerpted notes below show how the fields are populated and where the review prose belongs. Captured evidence preserves what was actually supplied; Personalized review contains the teaching; Verification records the independent audit.
+# Example 1: Correct and unmarked — reinforce the diagnosis
 
-# Example 1: Incorrect attempt, no cross-outs
+## Captured evidence record
 
-## Evidence used to draft
+- **Stem summary:** A 29-year-old woman with no prior pregnancies presents at 7 weeks' gestation with mild unilateral pelvic discomfort and scant spotting. She is stable and has no guarding. Transvaginal ultrasound shows an intrauterine gestational sac with yolk sac and embryo; cardiac activity is present. A 2.4-cm thick-walled structure with peripheral vascularity is within the left ovary, and there is a small amount of simple pelvic fluid. The question asks for the most likely explanation of the ovarian finding.
+- **Choices:** A. Ectopic pregnancy; B. Hemorrhagic corpus luteum; C. Ovarian torsion; D. Tubo-ovarian abscess; E. Endometrioma.
+- **Selected / correct:** B / B. Unmarked; no options crossed out.
+- **Highlights:** Intrauterine embryo with cardiac activity; lesion is within ovary; small simple fluid; stable vitals.
+- **Cross-outs:** None.
+- **Time:** 74 seconds. **Peer correct:** 81%.
+- **Source coverage:** Unit 1, early-pregnancy ultrasound appearance and physiology, is carried in Bottom line and Clinical explanation; keep “intraovarian” and “peripheral vascularity.” Unit 2, discriminatory differential, is carried in Options; keep the presence of a confirmed intrauterine pregnancy and absence of torsion/abscess signs. Unit 3, management boundaries, is carried in Clinical explanation; keep stability and small lesion as reasons for observation.
+- **Source citation:** ACOG, *Tubal Ectopic Pregnancy*, https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/03/tubal-ectopic-pregnancy (accessed 2026-10-31); radiologic corpus luteum description: https://radiopaedia.org/articles/corpus-luteum (accessed 2026-10-31).
 
-A young infant has infrequent firm stools, delayed first stool after birth, poor weight gain and sleepiness during feeds. Examination records a broad fontanelle, puffy features and low tone, with a soft abdomen and reassuring rectal examination. The learner selected a test for cystic fibrosis; thyroid studies are correct. The attempt was unmarked, with no cross-outs. The learner highlighted the delayed first stool and the unusual facial and neurologic findings. The source explanation links the pattern to congenital hypothyroidism, notes that many affected infants look well at birth, and states that testing shows high TSH with low T4. It recommends prompt levothyroxine. Competing explanations include obstruction or Hirschsprung disease, cystic fibrosis and functional constipation.
+## Full Obsidian note
 
-The good reasoning notices that a plausible bowel clue and poor growth do not explain the whole examination. The error is not simply “missed diagnosis”: the review should identify how the selected answer leaves the fontanelle, facial appearance and tone findings unaccounted for. A contrasting weaker reconstruction would claim the learner ignored all neonatal history or knowingly chose an answer they had crossed out; neither is supported by this record.
-
-## Output note
-
+```markdown
 ---
-platform: "Illustrative qbank"
-block: "practice-block-a"
-qid: "infant-bowel-case"
-system: "Pediatrics"
-subject: "Gastrointestinal & Nutrition"
-topic: "Neonatal constipation"
-result: incorrect
-physician_task: "Establish the diagnosis"
-decision_error: discrimination
-decision_error_confidence: supported
-likely_cause: weak discriminator
-likely_cause_confidence: likely
-time_s: 132
-pct_correct: 67
-date: 2026-10-31
-status: final
-tags:
-  - qbank-review
----
-
-## Captured evidence
-
-- Selected: cystic fibrosis testing. Correct: thyroid function studies. No options were crossed out; the attempt was not marked.
-- Highlights included the delayed first stool and the broad fontanelle, puffy facial appearance and low tone. The timing of first stool, weight trajectory, feeding behavior, temperature, heart rate and examination should be retained as recorded.
-- Source citation: supplied explanation and its diagnostic summary.
-- Deciding findings: delayed meconium passage plus a cluster of enlarged fontanelle, puffy face and hypotonia. Source support: congenital hypothyroidism can cause delayed passage and the listed hypometabolic / developmental findings.
-
-## Attempt card
-
-The infant with delayed stool passage, poor growth and a characteristic low-metabolic examination was asked which test would establish the cause. The likely misstep was allowing constipation and growth concerns to make cystic fibrosis seem sufficient while leaving the fontanelle, facial appearance and tone unexplained.
-
-## Classification
-
-The lead-in asks for a diagnosis-establishing test, so physician task is the exact task category supported by the source taxonomy. The selected test split from the correct path when comparing candidates against the distinguishing physical findings. Weak discriminator is a likely cause, not an observed fact: the record supports that the winning explanation did not account for all highlighted findings.
-
-## Personalized review
-
-### Congenital hypothyroidism presenting as neonatal constipation
-
-**Bottom line.** A young infant with delayed passage of the first stool, persistent constipation, feeding difficulty and little weight gain has a broad fontanelle, puffy features and reduced tone. The question asks which test establishes the diagnosis. This constellation points to congenital hypothyroidism; thyroid studies show increased TSH with decreased T4. Begin levothyroxine promptly because treatment in the neonatal period prevents lasting neurologic harm.
-
-- Delayed passage of meconium is abnormal for most newborns. Hirschsprung disease and cystic fibrosis account for many cases; the physical examination helps distinguish other causes.
-- **When a highlighted finding does not fit the leading answer, reopen the differential and account for it before committing.**
-
-**Clinical explanation.** Thyroid dysgenesis, including absent, underdeveloped or ectopic gland tissue, is the commonest cause. Many newborns initially appear well because maternal thyroid hormone crosses the placenta; symptoms can emerge over the following weeks as that contribution falls. A minority have reduced gut motility early, with delayed passage of stool. Reduced metabolism can cause a low heart rate and temperature, lethargy, poor feeding, hypotonia, constipation, prolonged jaundice and poor growth. Mucopolysaccharide accumulation contributes to a puffy face, enlarged tongue and umbilical hernia. Delayed skeletal maturation enlarges the fontanelles. Untreated disease can impair development and growth.
-
-| Cause | Findings that support it | Useful evaluation |
-|---|---|---|
-| Congenital hypothyroidism | Broad fontanelle, puffy features, low tone, feeding and growth difficulty | TSH and T4 |
-| Cystic fibrosis with meconium ileus | Delayed stool and poor growth; characteristic facial and fontanelle findings are not expected | Sweat chloride testing when indicated |
-| Hirschsprung disease | Obstructive symptoms, distension or abnormal rectal findings | Imaging and confirmatory rectal biopsy as indicated |
-| Functional constipation | Hard, infrequent stools with otherwise reassuring examination and no organic warning signs | No further testing when criteria are met |
-
-- **Selected option: cystic fibrosis testing.** It could explain delayed stool and poor growth, but does not account for the fontanelle, puffy features and hypotonia.
-- **Correct option: thyroid function studies.** Increased TSH with decreased T4 confirms the suspected disorder.
-- Abdominal imaging or rectal biopsy addresses obstruction or Hirschsprung disease; the benign abdominal and rectal examination makes those less compelling here.
-- No further testing is appropriate only when the presentation supports functional constipation without warning findings.
-
-### Likely thought path
-
-**Observed.** The learner highlighted delayed stool passage and the fontanelle / face / tone cluster. No cross-outs or guess mark were recorded.
-
-**Inferred.** Delayed stool passage may have brought cystic fibrosis to mind, and poor growth made that candidate plausible. The examination's soft abdomen and normal rectal findings reduced support for an obstructive process. The path diverged when the unusual fontanelle, facial appearance and tone were not used to compare cystic fibrosis with a systemic cause.
-
-**Less likely.** The learner may have recognized hypothyroidism but chosen a bowel-focused test because the presenting complaint was constipation; the supplied annotations do not establish this.
-
-**Connection.** An earlier infant question about delayed stool passage and obstructive findings would connect only if its supplied card shows the same specific decision boundary. Link it here as [[obstructive-infant-case|the earlier infant case]] and describe the shared feature without asserting an unsupported pattern.
-
-> **Take away.** In an infant with delayed stool passage, a broad fontanelle, puffy features and hypotonia should prompt thyroid studies rather than an explanation limited to bowel symptoms.
-
-### Tempting but weak alternatives
-
-**Weak:** “You forgot the diagnosis because you do not know pediatrics.” This invents a knowledge deficit and gives no actionable trigger. **Stronger:** “The bowel and growth clues made cystic fibrosis plausible, but the highlighted fontanelle and tone findings were not reconciled with it.” This is tied to this attempt and identifies the missed comparison.
-
-# Example 2: Incorrect attempt, correct answer crossed out
-
-## Evidence used to draft
-
-An older adult with several months of persistent upper abdominal discomfort, nausea, possible weight loss and microcytic anemia has an enlarged liver, low albumin and abnormal liver enzymes. Bilirubin and lipase are not elevated, and eosinophils are not increased. The patient has lived in East Asia earlier in life and visits family there. The learner selected a parasitic infection and crossed out gastric malignancy, along with several other options. The source explanation connects the anemia and upper abdominal symptoms to gastric cancer and the liver findings to metastases. It describes evaluation by upper endoscopy with biopsy followed by staging imaging.
-
-This example demonstrates why the review must mention the correct answer’s cross-out explicitly. A negative history of visible bleeding does not rule out slow occult blood loss. The travel history makes a parasite conceivable, but it does not explain the full liver profile; the low eosinophil count also weakens that choice. A sound reconstruction accounts for both the incorrect selection and why the right option was rejected, while keeping inference labeled as inference.
-
-## Output note
-
----
-platform: "Illustrative qbank"
-block: "practice-block-b"
-qid: "upper-abdominal-anemia-case"
-system: "Medicine"
-subject: "Gastrointestinal & Nutrition"
-topic: "Gastric malignancy"
-result: incorrect
-physician_task: "Identify the most likely cause"
-decision_error: discrimination
-decision_error_confidence: supported
-likely_cause: weak discriminator
-likely_cause_confidence: likely
-time_s: 206
-pct_correct: 40
-date: 2026-10-31
-status: final
-tags:
-  - qbank-review
----
-
-## Captured evidence
-
-- Selected: hookworm infection. Correct: gastric cancer. The learner crossed out the correct option and several alternatives.
-- Highlighted: persistent epigastric symptoms, possible weight loss, travel history, enlarged liver, anemia measures, albumin and liver enzymes. Eosinophil count and absence of visible bleeding were not highlighted.
-- Deciding findings: persistent epigastric symptoms with microcytic anemia, plus hepatomegaly and abnormal liver tests. Source supports gastric cancer with occult bleeding and liver spread.
-
-## Attempt card
-
-An older adult with persistent epigastric symptoms, microcytic anemia and liver abnormalities was asked for the most likely cause. The likely misstep was crossing out gastric cancer after treating travel as a stronger explanation than the anemia and liver findings together.
-
-## Classification
-
-Use the exact physician-task category supported by the lead-in. The answer split occurred while discriminating among candidate causes. A weak discriminator is a likely interpretation; travel and the selected answer are observed, whereas the weighting of those clues is inferred.
-
-## Personalized review
-
-### Gastric cancer with likely liver involvement
-
-**Bottom line.** An older adult with persistent epigastric discomfort, nausea, possible weight loss, microcytic anemia, hepatomegaly, low albumin and abnormal liver enzymes is asked for the likely cause. Gastric cancer can explain slow occult blood loss and liver involvement. Evaluation generally starts with upper endoscopy and biopsy, followed by imaging to assess spread.
-
-- In older adults, newly recognized iron-deficiency anemia warrants evaluation for gastrointestinal blood loss even without visible blood. A negative stool blood test alone does not exclude an occult source.
-- **Before eliminating an option, check that the remaining choice explains each important abnormality.**
-
-**Clinical explanation.** Gastric cancer risk is elevated in people from several regions, including East Asia; diet, Helicobacter pylori, pernicious anemia and smoking are among associated risks. Symptoms often become apparent after a tumor has grown: persistent upper abdominal pain, reduced intake or early satiety, weight loss, nausea or vomiting. Slow bleeding from fragile tumor vessels can produce iron-deficiency anemia without obvious gastrointestinal blood. Liver spread can cause hepatomegaly, abnormal alkaline phosphatase and transaminases, and reduced albumin. Endoscopy permits visualization and biopsy; staging imaging follows to assess metastatic disease.
-
-| Candidate | Pain pattern | Liver or blood clues | Fit to this case |
-|---|---|---|---|
-| Gastric cancer | Persistent epigastric discomfort | Microcytic anemia from slow blood loss; liver findings can reflect spread | Explains the combined pattern |
-| Hookworm | Abdominal symptoms may occur | Chronic blood loss can cause anemia; eosinophilia is common | Low eosinophils and liver abnormalities weaken it |
-| Pancreatic cancer | Often radiates toward the back | Biliary obstruction often raises bilirubin; gut bleeding is not typical | Normal bilirubin and anemia pattern weaken it |
-| Chronic pancreatitis | Often radiates to the back and worsens after meals | Anemia and hepatomegaly are not typical | Missing usual history and pattern |
-| Chronic viral hepatitis | Nausea and weight loss may occur | Mild transaminase elevation | Does not account well for focal epigastric symptoms and anemia |
-| Duodenal ulcer | Pain often occurs hours after eating | Liver abnormalities are not expected | Food-independent symptoms and liver findings argue against it |
-
-- **Correct option: gastric cancer (crossed out).** It accounts for the progressive upper abdominal symptoms, anemia and liver abnormalities.
-- **Selected option: hookworm.** It can cause gastrointestinal blood loss and anemia, but the low eosinophil fraction and liver findings are poorly explained.
-- Pancreatic cancer may affect liver tests when it blocks bile flow, usually with jaundice; it does not typically explain occult gastrointestinal blood loss.
-- Chronic pancreatitis more often causes back-radiating, meal-related pain and has different risk factors.
-- Chronic hepatitis can produce mild enzyme changes but does not fit the whole symptom and anemia pattern.
-- Duodenal ulcer pain has a characteristic relation to meals; it does not explain hepatomegaly and liver enzyme changes.
-
-### Likely thought path
-
-**Observed.** The learner selected hookworm and crossed out gastric cancer. Travel, weight change, hepatomegaly, anemia and liver tests were highlighted. Eosinophils and the lack of visible bleeding were not highlighted.
-
-**Inferred.** Travel may have made a parasite salient, and microcytic anemia seemed to support chronic intestinal blood loss. The liver findings could then have been treated as separate or incidental. The path diverged when gastric cancer was removed despite its ability to explain the anemia and liver abnormalities together.
-
-**Less likely.** The learner may have decided that malignancy was unlikely because the patient did not report visible bleeding; the record does not establish that this was the reason for the cross-out.
-
-**Your pattern.** Add a pattern only if supplied memory entries show the same concrete trigger and action across two distinct questions. A broad statement such as “travel distracts you” is not established by this single card.
-
-> **Take away.** In an older adult with microcytic anemia, persistent epigastric symptoms and liver abnormalities, keep gastric cancer in consideration even without visible bleeding.
-
-### Weak and strong reconstruction contrast
-
-**Weak:** “You always choose parasites when you see travel.” One item cannot support “always,” and travel history is not the same as a demonstrated repeated pattern. **Strong:** “Travel and anemia made hookworm plausible, but the selected answer left hepatomegaly and abnormal liver tests unexplained; gastric cancer could account for both the anemia and liver findings.” This explains the choice and the crossed-out correct answer while preserving uncertainty.
-
-# Example 3: Correct attempt, useful connection
-
-## Evidence used to draft
-
-An older woman reports fatigue and exertional breathlessness. Laboratory testing shows microcytosis, low ferritin and low serum iron with elevated iron-binding capacity. A stool blood test is negative once. The question asks for the next management step. She selects bidirectional endoscopy, which is correct. The source explanation says older adults with iron-deficiency anemia should be evaluated for gastrointestinal blood loss despite one negative occult blood test. It distinguishes this from marrow biopsy, evaluation for celiac disease in a fitting presentation, echocardiography for suspected severe valve disease, and localization scans for active bleeding. A related supplied question note concerns an older man whose anemia and no-visible-blood history led him away from gastric cancer.
-
-A correct compact review reinforces the decision without turning into a full lecture. Its connection should name the shared lesson and link the other note, but leave the previous outcome to the link. “You were right” is not the lesson; the reusable rule is that one negative occult blood test cannot close the investigation in a patient with new iron deficiency.
-
-## Output note
-
----
-platform: "Illustrative qbank"
-block: "practice-block-c"
-qid: "older-adult-iron-deficiency-case"
-system: "Medicine"
-subject: "Hematology"
-topic: "Iron-deficiency anemia"
+platform: "Synthetic qbank"
+block: "synthetic-reinforcement"
+qid: "early-pregnancy-ovarian-lesion-01"
+aliases:
+  - "early-pregnancy-ovarian-lesion-01 - Corpus luteum"
+source_url: "https://example-qbank.test/review/early-pregnancy-ovarian-lesion-01"
+system: "Obstetrics and Gynecology"
+subject: "Early pregnancy"
+topic: "Corpus luteum in pregnancy"
 result: correct
-physician_task: "Determine the next step in management"
+physician_task: "Make a diagnosis"
 decision_error: unclear
 decision_error_confidence: unknown
 likely_cause: unknown
 likely_cause_confidence: unknown
-time_s: 124
+time_s: 74
+pct_correct: 81
+date: 2026-10-31
+status: final
+tags:
+  - qbank-review
+---
+
+## Captured evidence
+
+A 29-year-old G1 at 7 weeks has mild unilateral pelvic discomfort and scant spotting but normal vital signs and no peritoneal signs. Transvaginal ultrasound shows an intrauterine embryo with cardiac activity and a 2.4-cm thick-walled, peripherally vascular lesion located within the left ovary, with a small amount of simple fluid. Asked for the ovarian lesion's most likely explanation. Selected and correct: hemorrhagic corpus luteum. No mark or cross-outs. Highlighted the intrauterine pregnancy, ovarian location, simple fluid and stable vitals.
+
+| Source coverage unit | Home | Keep | Source citation |
+|---|---|---|---|
+| Early pregnancy can show a thick-walled vascular corpus luteum in the ovary. | Bottom line; Clinical explanation | intraovarian; peripheral vascularity | ACOG Tubal Ectopic Pregnancy; Radiopaedia Corpus luteum |
+| Ectopic pregnancy and torsion are important alternatives, assessed in context. | Options | confirmed intrauterine pregnancy; stable; no severe pain | Same |
+| Stable patient with a small uncomplicated corpus luteum can be observed. | Clinical explanation | stable; small | Standard obstetric practice; source above |
+
+## Attempt card
+
+A stable patient at 7 weeks with a confirmed intrauterine pregnancy and a small vascular ovarian lesion was asked what the lesion represents; she correctly identified a corpus luteum, with no evidence of an unstable ectopic process or torsion.
+
+## Classification
+
+The lead-in asks for the lesion diagnosis. No decision error or likely cause is assigned because the answer was correct and unmarked, and annotations do not establish a specific decision process.
+
+## Personalized review
+
+### Hemorrhagic corpus luteum in early pregnancy
+
+**Bottom line.** A stable patient at 7 weeks with a confirmed intrauterine pregnancy and a small, thick-walled vascular lesion within the ovary most likely has a corpus luteum. This ovarian structure normally produces progesterone early in pregnancy; its peripheral vascularity can make it conspicuous on ultrasound.
+
+**Clinical explanation.** A corpus luteum forms after ovulation and supports early pregnancy through progesterone production until placental hormone production is established. It may be cystic or hemorrhagic and cause mild unilateral pain or scant spotting. In a stable patient without severe pain, peritoneal signs, or concerning free fluid, a small uncomplicated lesion is generally followed expectantly. Reassess urgently if pain becomes severe, syncope or hemodynamic instability develops, or imaging suggests rupture with significant bleeding or torsion.
+
+**Options**
+
+- **A. Ectopic pregnancy:** A pregnancy outside the uterus is less likely when an intrauterine embryo with cardiac activity is documented; heterotopic pregnancy remains possible, especially after assisted reproduction, but no such risk is supplied.
+- **B. Hemorrhagic corpus luteum:** Correct; the lesion is located in the ovary and the patient is stable with only mild symptoms.
+- **C. Ovarian torsion:** Usually presents with abrupt significant unilateral pain and may show an enlarged edematous ovary or twisted pedicle; the case lacks that acute clinical picture.
+- **D. Tubo-ovarian abscess:** Usually accompanies pelvic infection, fever, cervical or adnexal tenderness and a complex inflammatory mass, none of which is present.
+- **E. Endometrioma:** Often has homogeneous low-level internal echoes and a history of endometriosis; the acute early-pregnancy context and vascular thick wall favor a corpus luteum.
+
+### Connection
+
+This reinforces a pregnancy-imaging rule: determine whether a structure is intraovarian and interpret it alongside pregnancy location and hemodynamic status.
+
+**Take away.** In a stable early pregnancy, a small thick-walled vascular lesion centered in the ovary with a confirmed intrauterine embryo is usually a corpus luteum; instability, severe pain, or substantial bleeding changes the evaluation.
+
+## Verification
+
+The finding and management summary are consistent with standard early-pregnancy evaluation. This note intentionally stays compact because the attempt was correct and unmarked.
+
+## Links
+
+[Open in Synthetic qbank](https://example-qbank.test/review/early-pregnancy-ovarian-lesion-01)
+```
+
+## Flashcard
+
+In a stable early pregnancy with a confirmed intrauterine embryo, what does a small thick-walled vascular lesion centered in the ovary usually represent?::A corpus luteum; observe if uncomplicated, and reassess for severe pain, instability, or significant bleeding. [[early-pregnancy-ovarian-lesion-01 - Corpus luteum]]
+
+## Why this is good / common mistake to avoid
+
+The note reinforces the diagnostic pattern and states the management boundary without turning a straightforward correct answer into a speculative critique. A common mistake is to call every adnexal lesion an ectopic pregnancy or to treat peripheral vascularity as diagnostic by itself; lesion location, pregnancy location, symptoms, and stability must be read together. The rare possibility of heterotopic pregnancy is preserved as a boundary rather than made the leading answer in a low-risk synthetic vignette.
+
+# Example 2: Incorrect — choose the next step in acute hypercalcemia
+
+## Captured evidence record
+
+- **Stem summary:** A 61-year-old man with recurrent calcium kidney stones and constipation has calcium 12.8 mg/dL, albumin 4.1 g/dL, phosphate 2.1 mg/dL, and intact PTH above the laboratory reference range. Creatinine is near baseline. He takes no lithium or thiazide. The question asks for the most likely cause.
+- **Choices:** A. PTH-related peptide from squamous lung cancer; B. Primary hyperparathyroidism; C. Vitamin D intoxication; D. Multiple myeloma; E. Familial hypocalciuric hypercalcemia.
+- **Selected / correct:** A / B. Incorrect, unmarked.
+- **Highlights:** Calcium 12.8; kidney stones; low phosphate; no smoking history; PTH result not highlighted. No cross-outs.
+- **Cross-outs:** None.
+- **Time:** 188 seconds. **Peer correct:** 72%.
+- **Source coverage:** Unit 1, PTH-dependent versus PTH-independent hypercalcemia, is carried in Bottom line, Clinical explanation and options; keep PTH elevated and phosphate low. Unit 2, primary hyperparathyroidism confirmation and evaluation, is carried in Clinical explanation; keep albumin-adjusted calcium and PTH, renal and skeletal assessment, and urinary calcium distinction. Unit 3, alternatives, is carried in Options; keep suppressed PTH expected for malignancy, vitamin D excess, and myeloma-associated hypercalcemia. Unit 4, management overview, is carried in Clinical explanation; keep symptomatic marked hypercalcemia as a reason for acute assessment and definitive parathyroidectomy for guideline-eligible symptomatic disease.
+- **Source citation:** Endotext, *Approach to Hypercalcemia*, https://www.ncbi.nlm.nih.gov/books/NBK279129/ (accessed 2026-10-31); Fifth International Workshop summary, *Evaluation and Management of Primary Hyperparathyroidism*, https://academic.oup.com/jbmr/article/37/11/2293/7512381 (2022; accessed 2026-10-31).
+
+## Full Obsidian note
+
+```markdown
+---
+platform: "Synthetic qbank"
+block: "synthetic-diagnostic-reasoning"
+qid: "stones-and-pth-02"
+aliases:
+  - "stones-and-pth-02 - Primary hyperparathyroidism"
+source_url: "https://example-qbank.test/review/stones-and-pth-02"
+system: "Medicine"
+subject: "Endocrinology"
+topic: "PTH-dependent hypercalcemia"
+result: incorrect
+physician_task: "Make a diagnosis"
+decision_error: "discrimination"
+decision_error_confidence: likely
+likely_cause: "weak discriminator"
+likely_cause_confidence: likely
+time_s: 188
+pct_correct: 72
+date: 2026-10-31
+status: final
+tags:
+  - qbank-review
+---
+
+## Captured evidence
+
+A 61-year-old man with recurrent calcium stones and constipation has calcium 12.8 mg/dL, albumin 4.1 g/dL, phosphate 2.1 mg/dL, intact PTH above the reference range, and creatinine near baseline. He does not use lithium or a thiazide. Asked for the most likely cause. Selected PTH-related peptide from lung cancer; correct answer primary hyperparathyroidism. Unmarked, no cross-outs. Highlighted calcium, stones, low phosphate and absence of smoking history; PTH was not highlighted. Time 188 seconds; 72% of peers answered correctly.
+
+| Source coverage unit | Home | Keep | Source citation |
+|---|---|---|---|
+| PTH distinguishes PTH-dependent from PTH-independent hypercalcemia. | Bottom line; Clinical explanation | elevated PTH | Endotext, Approach to Hypercalcemia |
+| Primary hyperparathyroidism may cause stones and low phosphate. | Bottom line; Clinical explanation | recurrent stones; low phosphate | Fifth International Workshop |
+| Alternative etiologies usually suppress PTH. | Options | suppressed PTH | Endotext |
+| Confirm biochemistry and assess renal/skeletal involvement; surgery is definitive when indicated. | Clinical explanation; Correction rules | repeat calcium/PTH; renal and skeletal evaluation | Fifth International Workshop |
+
+## Attempt card
+
+A man with recurrent calcium stones, hypercalcemia, low phosphate and elevated PTH was asked for the cause; he chose malignancy-associated PTH-related peptide, likely weighting the high calcium and stone history over the unsuppressed PTH result.
+
+## Classification
+
+The question asks for a diagnosis. The split occurred while distinguishing candidate causes of hypercalcemia. The likely cause is a weak discriminator: the record shows the learner selected PTH-related peptide despite an elevated PTH that points toward PTH-dependent disease; the thought process is inferred, not observed.
+
+## Personalized review
+
+### Primary hyperparathyroidism causing PTH-dependent hypercalcemia
+
+**Bottom line.** A 61-year-old man with calcium 12.8 mg/dL, recurrent calcium stones, low phosphate and an intact PTH above the reference range has PTH-dependent hypercalcemia, most consistent with primary hyperparathyroidism. The PTH result is the decisive discriminator: PTH should be suppressed when hypercalcemia is caused by PTH-related peptide, vitamin D excess, or most malignancy-associated mechanisms.
+
+**Correction rules**
+
+- When calcium is high, classify the disorder by intact PTH before pursuing individual causes: an elevated or inappropriately normal value supports PTH-dependent disease; a suppressed value redirects evaluation.
+- Confirm persistent hypercalcemia with albumin-adjusted total calcium or ionized calcium and an appropriately measured PTH before labeling an asymptomatic patient; then assess renal function, stones, bone density and fracture risk.
+- A 24-hour urine calcium or calcium-to-creatinine clearance ratio can help distinguish primary hyperparathyroidism from familial hypocalciuric hypercalcemia, interpreted with renal function, vitamin D status, diet and medications in mind.
+- For symptomatic hypercalcemia around this level, assess promptly for dehydration, renal impairment and ECG effects; acute treatment depends on severity and volume status. Parathyroidectomy is definitive for primary hyperparathyroidism and is recommended for symptomatic disease and for patients meeting guideline criteria.
+
+**Clinical explanation.** Primary hyperparathyroidism is usually due to a solitary parathyroid adenoma, with multigland disease less common. Excess PTH increases bone turnover, renal calcium reabsorption and renal phosphate wasting, while stimulating activation of vitamin D. The resulting pattern can include hypercalcemia, low or low-normal phosphate, nephrolithiasis, constipation, polyuria, neurocognitive symptoms, reduced bone density or fracture. Mild disease may be found incidentally.
+
+Confirm the biochemical pattern rather than relying on a single result: repeat calcium with albumin correction or measure ionized calcium, and measure intact PTH. Review medications and measure 25-hydroxyvitamin D and renal function. Assess for kidney stones or nephrocalcinosis and skeletal involvement. In a suitable patient, low urinary calcium supports familial hypocalciuric hypercalcemia, but overlap exists and context matters. Surgery is definitive; observation with monitoring may be appropriate when the patient is asymptomatic and does not meet operative criteria. Hydration and individualized management are important during acute symptomatic episodes; avoid implying that one calcium value alone dictates a particular drug regimen.
+
+**Options**
+
+- **A. PTH-related peptide from squamous lung cancer:** Humoral malignancy-associated hypercalcemia typically suppresses endogenous PTH; the elevated PTH argues against this mechanism. The absence of smoking history is a weaker clue than the laboratory discriminator.
+- **B. Primary hyperparathyroidism:** Correct; elevated PTH with high calcium, low phosphate and recurrent stones is a coherent PTH-dependent pattern.
+- **C. Vitamin D intoxication:** Excess vitamin D increases intestinal calcium absorption and generally suppresses PTH; 25-hydroxyvitamin D helps assess this possibility.
+- **D. Multiple myeloma:** Myeloma can cause hypercalcemia through bone resorption, usually with suppressed PTH; anemia, renal dysfunction, bone pain or monoclonal protein findings would prompt evaluation.
+- **E. Familial hypocalciuric hypercalcemia:** Usually lifelong mild hypercalcemia with low urinary calcium and often a family history; recurrent stones and this degree of calcium elevation favor primary hyperparathyroidism, though urine calcium testing can help distinguish them.
+
+### Likely thought path
+
+**Observed.** The learner selected PTH-related peptide and highlighted the calcium level and recurrent stones, as well as low phosphate and no smoking history. PTH was not highlighted, and no candidates were crossed out.
+
+**Inferred.** The prominent hypercalcemia and renal stone history may have made malignancy-related hypercalcemia feel urgent, while the absence of smoking could have been treated as a secondary detail rather than testing the selected mechanism. The path diverged at the unsuppressed PTH: that finding directly conflicts with a PTH-independent explanation and should have outweighed the less specific cancer association.
+
+**Less likely.** The learner may have misread the PTH as normal; the record does not establish that, so this remains a possibility rather than a conclusion.
+
+### Supplemental note†
+
+†Supplemental claim: The calcium-to-creatinine clearance ratio is helpful but not absolute; familial hypocalciuric hypercalcemia and primary hyperparathyroidism can overlap, so urinary calcium should be interpreted alongside renal function, vitamin D status, medication exposure and family history. This nuance is included to prevent a test result from being treated as a standalone diagnosis.
+
+### Connection
+
+The decision resembles [[calcium-lab-pattern-rule|the calcium interpretation rule]]: classify the physiology from the regulatory hormone before anchoring on a cause. A second related decision is [[stone-workup-prior-attempt|the prior stone workup]], which connected nephrolithiasis to a systemic metabolic evaluation.
+
+**Take away.** In hypercalcemia, use intact PTH first to divide PTH-dependent from PTH-independent causes; a nonsuppressed PTH should stop you from selecting a PTH-related peptide explanation without reconciling that contradiction.
+
+## Verification
+
+The primary discriminator and follow-up steps align with the Endotext review and Fifth International Workshop. The scenario is synthetic; the inference about why the learner chose option A is explicitly a hypothesis from the highlighted calcium and stone clues and unhighlighted PTH.
+
+## Links
+
+[Open in Synthetic qbank](https://example-qbank.test/review/stones-and-pth-02)
+```
+
+## Flashcards
+
+When hypercalcemia is accompanied by an elevated or inappropriately normal intact PTH, what category should be evaluated first?::PTH-dependent hypercalcemia, especially primary hyperparathyroidism; confirm the biochemical pattern and assess renal and skeletal involvement. [[stones-and-pth-02 - Primary hyperparathyroidism]]
+
+When considering familial hypocalciuric hypercalcemia versus primary hyperparathyroidism, how should urinary calcium be used?::As a helpful discriminator interpreted with family history, kidney function, vitamin D status and medications, not as an isolated definitive test. [[stones-and-pth-02 - Primary hyperparathyroidism]]
+
+## Why this is good / common mistake to avoid
+
+The review connects the learner’s marked evidence to a plausible reasoning path while labeling that path as inference. It teaches the high-value laboratory fork, then includes the subtler urine-calcium caveat without overstating it. A common mistake is to let a dramatic calcium value or familiar cancer mechanism outrank PTH physiology; another is to treat the clearance ratio as perfectly sensitive and specific. The† claim is clearly supplementary and does not obscure the decisive finding.
+
+# Example 3: Marked but correct — reinforce and stabilize the distinction
+
+## Captured evidence record
+
+- **Stem summary:** A 34-year-old man with ulcerative colitis on mesalamine reports six weeks of bloody diarrhea and urgency. He is afebrile, has mild lower abdominal tenderness without guarding, and is hemodynamically stable. Stool testing is negative for *C difficile*. Flexible sigmoidoscopy shows continuous erythema and friability beginning at the rectum and extending proximally; biopsy shows chronic architectural distortion with basal plasmacytosis. The question asks which diagnosis best explains the findings.
+- **Choices:** A. Crohn disease; B. Ulcerative colitis flare; C. Ischemic colitis; D. Infectious colitis; E. Microscopic colitis.
+- **Selected / correct:** B / B. Marked as a guess; no cross-outs.
+- **Highlights:** Bloody diarrhea; rectal involvement; continuous disease; chronic architectural distortion; negative *C difficile* assay.
+- **Cross-outs:** None.
+- **Time:** 231 seconds. **Peer correct:** 64%.
+- **Source coverage:** Unit 1, UC distribution and histology, is carried in Bottom line and Clinical explanation; keep continuous mucosal inflammation starting at rectum and chronic architectural changes. Unit 2, Crohn and other alternatives, is carried in Options; keep skip/transmural tendency for Crohn, abrupt watershed pain for ischemia, acute pathogen context for infection, and nonbloody watery diarrhea for microscopic colitis. Unit 3, activity assessment and treatment boundary, is carried in Clinical explanation; keep severity assessment and exclude infection before escalating immunosuppression.
+- **Source citation:** ACG Clinical Guideline: Ulcerative Colitis in Adults (2025 update), https://journals.lww.com/ajg/fulltext/2025/06000/acg_clinical_guideline_update__ulcerative_colitis.13.aspx (accessed 2026-10-31); NIDDK, Ulcerative Colitis, https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis (accessed 2026-10-31).
+
+## Full Obsidian note
+
+```markdown
+---
+platform: "Synthetic qbank"
+block: "synthetic-marked-correct"
+qid: "continuous-colitis-biopsy-03"
+aliases:
+  - "continuous-colitis-biopsy-03 - Ulcerative colitis"
+source_url: "https://example-qbank.test/review/continuous-colitis-biopsy-03"
+system: "Medicine"
+subject: "Gastroenterology"
+topic: "Ulcerative colitis"
+result: marked-correct
+physician_task: "Make a diagnosis"
+decision_error: "correct but unstable"
+decision_error_confidence: supported
+likely_cause: "unknown"
+likely_cause_confidence: unknown
+time_s: 231
 pct_correct: 64
 date: 2026-10-31
 status: final
@@ -210,47 +264,75 @@ tags:
 
 ## Captured evidence
 
-- Selected and correct: colonoscopy and upper endoscopy. Not marked. A single stool occult-blood test was negative.
-- Highlights included age, fatigue and breathlessness, murmur, hemoglobin, MCV, ferritin, serum iron, iron-binding capacity and the management lead-in.
-- Source citation: supplied anemia evaluation explanation.
+A 34-year-old man with ulcerative colitis on mesalamine has six weeks of bloody diarrhea and urgency. He is stable and afebrile with mild lower abdominal tenderness. Stool *C difficile* testing is negative. Sigmoidoscopy shows continuous erythema and friability beginning at the rectum and extending proximally; biopsy shows chronic architectural distortion with basal plasmacytosis. Asked for the best diagnosis. Selected and correct: ulcerative colitis flare. Marked as a guess; no cross-outs. Highlighted blood, rectal involvement, continuous disease, chronic architectural distortion and negative *C difficile*. Time 231 seconds; 64% of peers answered correctly.
+
+| Source coverage unit | Home | Keep | Source citation |
+|---|---|---|---|
+| UC classically begins in rectum and extends continuously. | Bottom line; Clinical explanation | rectum; continuous | ACG guideline; NIDDK |
+| Chronic histologic changes support UC. | Bottom line; Clinical explanation | architectural distortion; basal plasmacytosis | ACG guideline |
+| Crohn, ischemic, infectious and microscopic colitis differ by distribution, acuity or stool pattern. | Options | continuous versus skip; bloody versus watery | Same |
+| Assess severity and exclude infection before escalating treatment. | Clinical explanation | severity; infection exclusion | ACG guideline |
 
 ## Attempt card
 
-An older woman with laboratory-confirmed iron-deficiency anemia and one negative stool blood test was asked for the next management step.
+A patient with known ulcerative colitis, bloody urgency, continuous rectal-to-proximal inflammation, chronic biopsy changes and negative *C difficile* testing correctly identified a flare but marked the answer as a guess, likely because continuous distribution had not become a secure discriminator.
 
 ## Classification
 
-Classify the task using the exact supported physician-task category. Because the answer was correct and unmarked, record `unclear` for decision_error when no split from the correct path occurred; do not invent an error cause for a correct unmarked attempt.
+The lead-in asks for a diagnosis. The answer was correct but explicitly marked uncertain, so decision error is `correct but unstable`; no likely cause is assigned because the record does not reveal why the distinction felt uncertain.
 
 ## Personalized review
 
-### New iron deficiency in an older adult
+### Ulcerative colitis flare
 
-**Bottom line.** An older woman with fatigue and exertional breathlessness has microcytosis, low ferritin and serum iron, and elevated iron-binding capacity. The question asks for the next step. New iron-deficiency anemia in an older adult warrants evaluation for gastrointestinal blood loss with colonoscopy and upper endoscopy, even after one negative stool blood test.
+**Bottom line.** A 34-year-old man with bloody diarrhea and urgency has continuous mucosal inflammation beginning at the rectum, chronic architectural distortion and negative *C difficile* testing. This is an ulcerative colitis flare. The distribution and chronicity are the decisive findings.
 
-- **Colonoscopy and upper endoscopy (selected and correct).** They evaluate for gastrointestinal causes such as polyps, cancer and vascular lesions. A single negative occult-blood test does not rule out intermittent or occult bleeding.
-- **Echocardiography.** A systolic murmur can have several causes; the supplied examination detail does not override the established iron-deficiency workup.
-- **Celiac serology.** Consider when age and associated gastrointestinal symptoms support malabsorption.
-- **Tagged red-cell imaging.** This localizes active bleeding and is not the initial evaluation of chronic iron deficiency without active hemorrhage.
-- **Bone marrow biopsy.** It is generally unnecessary to establish iron deficiency; investigate the cause instead.
+**Correction rules**
 
-**Connection.** In [[upper-abdominal-anemia-case|the earlier older-adult anemia case]], a history without visible blood did not exclude occult gastrointestinal loss. The same principle supports endoscopic evaluation here despite a negative stool test.
+- When colitis is continuous from the rectum, favor ulcerative colitis; when disease is patchy or involves small bowel and transmural complications, consider Crohn disease.
+- Before escalating immunosuppression for a suspected flare, assess clinical severity and test for enteric infection, including *C difficile*, because infection can mimic or coexist with active IBD.
 
-> **Take away.** A single negative occult-blood test does not exclude gastrointestinal bleeding; evaluate new iron-deficiency anemia in an older adult with upper and lower endoscopy.
+**Clinical explanation.** Ulcerative colitis is a chronic inflammatory disease limited to the colon, with continuous mucosal inflammation that begins in the rectum and may extend proximally. Bloody diarrhea, urgency and tenesmus are common. Histology supports chronicity through architectural distortion and basal plasmacytosis; these findings should be interpreted in the clinical and endoscopic context. Disease activity is graded clinically and endoscopically, with attention to stool frequency, bleeding, systemic toxicity, anemia, inflammatory markers and hydration. This patient is stable, but symptom duration and endoscopic activity still warrant treatment adjustment with gastroenterology follow-up. Exclude infection before assuming all worsening symptoms represent autoimmune activity. Treatment depends on extent and severity: optimize 5-aminosalicylate therapy for appropriate mild-to-moderate disease; corticosteroids can induce remission in more active disease but are not maintenance therapy; advanced therapies are selected for moderate-to-severe or refractory disease. Acute severe colitis requires hospital-level assessment and timely rescue therapy or surgery if medical therapy fails.
 
-### Why this compact review is enough
+**Options**
 
-The bottom line states the decisive laboratory pattern, the question asked and the management choice. Option entries give concise discriminators rather than restating a full pathophysiology lesson. The connection adds one applicable memory cue, while the linked note carries its own answer and outcome. A longer account of every cause of anemia would bury the decision and exceed the compact review’s purpose.
+- **A. Crohn disease:** Can cause bloody diarrhea, but skip lesions, ileal involvement, strictures, fistulas or transmural inflammation would support it more than continuous rectal disease with chronic colitis.
+- **B. Ulcerative colitis flare:** Correct; bloody urgency plus continuous inflammation beginning at the rectum and chronic histology fits.
+- **C. Ischemic colitis:** More often causes sudden crampy pain followed by bloody stool in an older or vascular-risk patient, often affecting watershed regions rather than continuous rectal disease.
+- **D. Infectious colitis:** Can cause acute diarrhea and blood, but the six-week course, chronic architectural changes and negative *C difficile* assay favor IBD activity; testing should still be guided by exposure and local protocols.
+- **E. Microscopic colitis:** Typically causes chronic watery, nonbloody diarrhea with a normal-appearing colon; diagnosis depends on biopsy and does not fit this endoscopic pattern.
 
-### Common overstatement to avoid
+### Likely thought path
 
-**Too absolute:** “Every older patient with any anemia needs scopes, regardless of findings.” The source supports evaluation for newly identified iron-deficiency anemia in this clinical setting and specifically cautions that one negative occult blood test is insufficient. **Accurate and actionable:** “In an older adult with new iron-deficiency anemia, perform bidirectional endoscopy despite one negative occult blood test.” Preserve the source’s patient group and condition.
+**Observed.** The learner chose ulcerative colitis and marked the response as a guess. The highlights include blood, rectal involvement, continuous disease, chronic biopsy changes and the negative *C difficile* result; no options were crossed out.
+
+**Inferred.** The learner may have recognized the overall IBD pattern but felt unsure whether the continuous rectal distribution and chronic histology sufficiently separated ulcerative colitis from Crohn disease or infection. The guess was fragile because the features were noticed but apparently had not been converted into a confident rule for classifying colitis.
+
+**Less likely.** The mark may reflect general test anxiety rather than uncertainty about this differential; the available record cannot distinguish that explanation.
+
+**Take away.** When chronic bloody colitis is continuous from the rectum and shows chronic mucosal changes, favor ulcerative colitis; assess severity and exclude infection before escalating flare treatment.
 
 ## Verification
 
-| Unit | Basis | Verdict | Type | Problem | Correction |
-|---:|---|---|---|---|---|
-| 1 | Stem and supplied laboratory values | OK |  |  |  |
-| 2 | Source: evaluation recommendation despite one negative test | OK |  |  |  |
-| 3 | Attempt record: selected answer | OK |  |  |  |
-| 4 | Linked question note: anemia without visible bleeding | OK |  |  |  |
+Clinical pattern and treatment boundaries are consistent with the cited ACG guideline and NIDDK overview. The clinical management is intentionally framed by severity and does not prescribe a specific regimen without a full severity assessment.
+
+## Links
+
+[Open in Synthetic qbank](https://example-qbank.test/review/continuous-colitis-biopsy-03)
+```
+
+## Flashcards
+
+When chronic bloody colitis is continuous from the rectum and biopsy shows chronic mucosal changes, which diagnosis is favored?::Ulcerative colitis; assess activity and exclude infection before escalating flare therapy. [[continuous-colitis-biopsy-03 - Ulcerative colitis]]
+
+## Why this is good / common mistake to avoid
+
+The note treats the marked correct answer as a learning need: it reinforces the exact discriminator and explains why the guess may have felt unstable without claiming to know the learner’s inner state. A common mistake is to equate any bloody diarrhea with Crohn disease or to escalate immunosuppression before checking for infection. The next-step boundary is stated in a way that remains useful across future vignettes.
+
+## Clinical reference links
+
+- [ACOG: Tubal Ectopic Pregnancy](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/03/tubal-ectopic-pregnancy)
+- [Endotext: Approach to Hypercalcemia](https://www.ncbi.nlm.nih.gov/books/NBK279129/)
+- [Fifth International Workshop: Primary Hyperparathyroidism](https://academic.oup.com/jbmr/article/37/11/2293/7512381)
+- [ACG Clinical Guideline Update: Ulcerative Colitis](https://journals.lww.com/ajg/fulltext/2025/06000/acg_clinical_guideline_update__ulcerative_colitis.13.aspx)
+- [NIDDK: Ulcerative Colitis](https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis)

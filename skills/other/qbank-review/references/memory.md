@@ -1,6 +1,6 @@
 # Memory reference (step C)
 
-You read the test's final cards against the memory from before the test, then propose memory deltas and write the test summary.
+Read and update memory under `<root>/memory/`. Compare the test's final cards against the memory from before the test, then propose memory deltas and write the test summary.
 
 ## Memory deltas
 

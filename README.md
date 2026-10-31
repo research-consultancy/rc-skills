@@ -71,7 +71,11 @@ Use [`/screen-pubmed-abstracts`](./skills/evidence-insight/screen-pubmed-abstrac
 
 The screener balances sensitivity and specificity: topical relevance alone does not earn retention, while genuinely missing or ambiguous eligibility information remains visible to the human reviewer. Its shortlist is title-and-abstract triage, not a final study-inclusion decision.
 
-### Reviewing completed question-bank blocks`r`n`r`nUse [`qbank-review`](./skills/other/qbank-review/SKILL.md) to review completed qbank blocks into personalized Obsidian notes, memory and flashcards.`r`n`r`n### The project uses the same words for different things
+### Reviewing completed question-bank blocks
+
+Use [`qbank-review`](./skills/other/qbank-review/SKILL.md) to review completed qbank blocks into personalized Obsidian notes, memory and flashcards.
+
+### The project uses the same words for different things
 
 Terms such as _baseline_, _cohort_, _outcome_, and _effect_ can silently change meaning across a protocol, registry, extraction form, analysis plan, and manuscript.
 
@@ -129,12 +133,14 @@ Reusable practices that support multiple stages of medical research.
 **User-invoked**
 
 - **[grill-me](./skills/other/grill-me/SKILL.md)** — Start a relentless one-question-at-a-time interview about a plan or decision.
-- **[teach](./skills/other/teach/SKILL.md)** — Learn medical research methods through a stateful, evidence-grounded teaching workspace.`n- **[grill-with-docs](./skills/other/grill-with-docs/SKILL.md)** — Grill a design and document decisions.
+- **[teach](./skills/other/teach/SKILL.md)** — Learn medical research methods through a stateful, evidence-grounded teaching workspace.
+- **[grill-with-docs](./skills/other/grill-with-docs/SKILL.md)** — Grill a design and document decisions.
 
 **Model-invoked**
 
 - **[grilling](./skills/other/grilling/SKILL.md)** — Apply the reusable one-question-at-a-time grilling discipline.
-- **[domain-modeling](./skills/other/domain-modeling/SKILL.md)** — Align medical research terminology, constructs, estimands, and consequential decisions.`n- **[writing-for-agents](./skills/other/writing-for-agents/SKILL.md)** — Write documents agents consume.
+- **[domain-modeling](./skills/other/domain-modeling/SKILL.md)** — Align medical research terminology, constructs, estimands, and consequential decisions.
+- **[writing-for-agents](./skills/other/writing-for-agents/SKILL.md)** — Write documents agents consume.
 
 ## Repository structure
 
