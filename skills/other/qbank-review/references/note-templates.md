@@ -34,7 +34,7 @@ Write headings exactly as shown; never prefix a heading with another heading mar
 
 Unavailable numbers are YAML 
 ull`; unavailable classifications use `unknown`. Values: decision error is one of `lead-in`, `patient picture`, `candidates`, `discrimination`, `sequence or threshold`, `data and calculation`, `correct but unstable`, `unclear`; cause is `knowledge gap`, `weak discriminator`, 
-ot transferred`, `process slip`, `unknown`. Include headings: Captured evidence, Attempt card, Classification, Personalized review, Verification, Links. Store the stem/source or a durable citation sufficient to audit claims. In Captured evidence, include a Source coverage table with columns Unit, Home, Keep and Source citation; list exact numbers, thresholds, comparison signs and qualifiers in Keep. Preserve each unit’s facts in its named section. Notes with `status: final` are immutable and skipped on rerun.
+ot transferred`, `process slip`, `unknown`. Include headings: Captured evidence, Attempt card, Classification, Personalized review, Verification, Links. Store the stem/source or a durable citation sufficient to audit claims. In Captured evidence, include an **Image findings** line (1–3 factual sentences based on each saved image that was opened; otherwise `image: saved, not analysed`, with the limitation stated in the note). Include a Source coverage table with columns Unit, Home, Keep and Source citation; list exact numbers, thresholds, comparison signs and qualifiers in Keep. Preserve each unit’s facts in its named section. Notes with `status: final` are immutable and skipped on rerun.
 
 ## Dashboard.base
 
